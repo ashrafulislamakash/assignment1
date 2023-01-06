@@ -32,11 +32,11 @@ nav {
   display: flex;
   padding: 15px 10%;
   justify-content: space-between;
-  background-color: white;
+  background-color: #151414;
 }
 
 .nav-title {
-  color: #151414;
+  color: #ffffff;
   font-weight: 700;
   font-size: 45px;
   line-height: 53px;
@@ -56,30 +56,19 @@ nav li {
 }
 
 nav .navitems {
+  color: #fff;
   font-weight: 600;
   font-size: 20px;
   line-height: 23px;
 }
 
-/* .banner {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: 0px 20%;
-  background-image: linear-gradient(
-      360deg,
-      #121212 0%,
-      rgba(18, 18, 18, 0) 100%
-    ),
-    url(images/bg.png);
-  height: 850px;
-} */
-
 .banner {
   display: flex;
   justify-content: end;
+  background-image: url("images/banner/banner1.png");
   padding: 0px 10%;
-  height: 850px;
+  height: 800px;
+  background-repeat: no-repeat;
 }
 
 .content-container {
@@ -109,40 +98,50 @@ nav .navitems {
 /* My Failure Start */
 
 .myfailures {
-  padding: 0px 10%;
-  margin: 130px 0;
+  padding: 130px 10%;
 }
 .contaienr {
   display: flex;
-  gap: 90px;
+  gap: 100px;
 }
 
-.text-container {
-  width: 50%;
-  align-self: center;
-}
-
-.myfailures img {
-}
-
-.myfailures .title {
-  font-weight: 700;
-  font-size: 40px;
-  line-height: 47px;
-  color: #151414;
-}
-.myfailures .description {
+.myfailures ul li {
+  list-style-image: url("images/icons/check.png");
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
   color: #444343;
 }
 
+.text-container {
+  width: 25%;
+  align-self: center;
+}
+.myfailures .title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  color: #151414;
+  text-align: left;
+}
+.myfailures .description {
+  text-align: left;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #444343;
+}
+
+.myfailures .list {
+  margin-left: 24px;
+}
+
+/* MyPlan Start */
 .myplans {
-  margin: 130px 0;
-  padding: 0px 10%;
+  padding: 130px 10%;
 }
 .contaienr {
+  text-align: center;
   display: flex;
   gap: 86px;
   margin-top: 60px;
@@ -201,4 +200,41 @@ nav .navitems {
 footer {
   background-color: #151414;
   padding: 130px 10%;
+}
+footer .contaienr {
+  display: flex;
+  justify-content: space-between;
+}
+footer .logotitle {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 53px;
+  color: #f8f8f8;
+}
+footer .fdis {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #ffffff;
+}
+
+.Socialcontack {
+  display: flex;
+  gap: 24px;
+}
+
+.subscribe {
+  font-weight: 600;
+  font-size: 25px;
+  line-height: 29px;
+  color: #ffffff;
+}
+
+.subscrivecontenet input {
+  color: #fff;
+  border: 1px solid #ffffff;
+  background-color: transparent;
+  border-radius: 8px;
+  width: 325px;
+  padding: 24px;
 }
