@@ -1,0 +1,155 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  text-decoration: none;
+  list-style: none;
+  box-sizing: border-box;
+  font-family: "Work Sans", sans-serif;
+}
+
+.btn-primary {
+  color: #ffffff;
+  background-color: #f15b22;
+  border-radius: 5px;
+  padding: 20px 36px;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+}
+/* Style Start */
+
+nav {
+  display: flex;
+  padding: 15px 10%;
+  justify-content: space-between;
+  background-color: white;
+}
+
+.nav-title {
+  color: #151414;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 53px;
+}
+
+.nav-title span {
+  color: #f15b22;
+}
+
+nav ul {
+  display: flex;
+  align-items: center;
+}
+nav li {
+  list-style: none;
+  margin-left: 35px;
+}
+
+nav .navitems {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 23px;
+}
+
+/* .banner {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0px 20%;
+  background-image: linear-gradient(
+      360deg,
+      #121212 0%,
+      rgba(18, 18, 18, 0) 100%
+    ),
+    url(images/bg.png);
+  height: 850px;
+} */
+
+.banner {
+  display: flex;
+  justify-content: end;
+  padding: 0px 10%;
+  height: 850px;
+}
+
+.content-container {
+  width: 40%;
+  align-self: center;
+  text-align: right;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 65px;
+  line-height: 76px;
+  text-align: right;
+  color: #151414;
+}
+
+.description {
+  margin-top: 24px;
+  margin: 24px 0 32px 0;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  text-align: right;
+  color: #444343;
+}
+
+/* My Failure Start */
+
+.myfailures {
+  padding: 0px 10%;
+  margin: 130px 0;
+}
+.contaienr {
+  display: flex;
+  gap: 90px;
+}
+
+.text-container {
+  width: 50%;
+  align-self: center;
+}
+
+.myfailures img {
+}
+
+.myfailures .title {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  color: #151414;
+}
+.myfailures .description {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #444343;
+}
+
+.myplans {
+  margin: 130px 0;
+  padding: 0px 10%;
+}
+.contaienr {
+  display: flex;
+  gap: 86px;
+  margin-top: 60px;
+}
+.card .title {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 35px;
+  text-align: center;
+  color: #151414;
+  margin: 16px 0;
+}
+.card .dis {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 29px;
+  text-align: center;
+  color: #737272;
+}
