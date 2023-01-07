@@ -111,10 +111,11 @@ nav .navitems {
   font-size: 16px;
   line-height: 26px;
   color: #444343;
+  text-align: left;
 }
 
 .text-container {
-  width: 25%;
+  width: 35%;
   align-self: center;
 }
 .myfailures .title {
@@ -138,12 +139,20 @@ nav .navitems {
 
 /* MyPlan Start */
 .myplans {
-  padding: 130px 10%;
+  padding: 0px 10%;
+}
+
+.myplanstitle {
+  text-align: center;
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 47px;
+  color: #151414;
 }
 .contaienr {
-  text-align: center;
   display: flex;
-  gap: 86px;
+  justify-content: space-between;
+  text-align: center;
   margin-top: 60px;
 }
 .card .title {
@@ -162,11 +171,13 @@ nav .navitems {
   color: #737272;
 }
 
+/* Cta Start */
+
 .cta {
   padding: 130px 10%;
 }
 
-.cta .contaienr {
+.cta-contaienr {
   display: flex;
   background-image: linear-gradient(
       90deg,
@@ -201,23 +212,31 @@ footer {
   background-color: #151414;
   padding: 130px 10%;
 }
-footer .contaienr {
+.footer-contaienr {
   display: flex;
   justify-content: space-between;
 }
-footer .logotitle {
+
+footer .left {
+  width: 50%;
+}
+.logotitle {
   font-weight: 700;
   font-size: 45px;
   line-height: 53px;
   color: #f8f8f8;
 }
-footer .fdis {
+.fdis {
   font-weight: 400;
   font-size: 16px;
   line-height: 26px;
   color: #ffffff;
+  margin: 16px 24px 0 0;
 }
 
+.contactinfo {
+  margin-bottom: 32px;
+}
 .Socialcontack {
   display: flex;
   gap: 24px;
@@ -230,11 +249,18 @@ footer .fdis {
   color: #ffffff;
 }
 
-.subscrivecontenet input {
+.right {
+  width: 30%;
+}
+.right input {
   color: #fff;
   border: 1px solid #ffffff;
   background-color: transparent;
   border-radius: 8px;
   width: 325px;
   padding: 24px;
+}
+
+.subwrapper {
+  margin: 32px 0px 16px 0px;
 }
