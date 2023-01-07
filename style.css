@@ -149,13 +149,13 @@ nav .navitems {
   line-height: 47px;
   color: #151414;
 }
-.contaienr {
+.card-contaienr {
   display: flex;
   justify-content: space-between;
   text-align: center;
   margin-top: 60px;
 }
-.card .title {
+.card-title {
   font-weight: 700;
   font-size: 30px;
   line-height: 35px;
@@ -163,7 +163,7 @@ nav .navitems {
   color: #151414;
   margin: 16px 0;
 }
-.card .dis {
+.card-dis {
   font-weight: 500;
   font-size: 25px;
   line-height: 29px;
@@ -196,7 +196,7 @@ nav .navitems {
   object-fit: cover;
 }
 
-.cta .title {
+.cta-title {
   text-align: left;
   width: 80%;
   font-weight: 700;
@@ -261,6 +261,6 @@ footer .left {
   padding: 24px;
 }
 
-.subwrapper {
+.sub-wrapper {
   margin: 32px 0px 16px 0px;
 }
